@@ -1,6 +1,6 @@
 <header class="main-header">
     <h1 class="main-header__title">
-        <a _self href="./plantas">
+        <a routerLink="plantas">
         <span class="main-header__title--purple">Start</span><span class="main-header__title--green">Planting</span>
         <i class="fa-brands fa-pagelines" style="color: #659157;"></i>
         </a>
@@ -10,13 +10,13 @@
     <nav class="main-header__menu">
         <ul>
             <li>
-                <a _self href="./plantas">Plantas</a>
+                <a routerLink="plantas">Plantas</a>
             </li>
             <li>
-                <a _self href="./contato">Contato</a>
+                <a routerLink="contato">Contato</a>
             </li>
             <li>
-                <a _self href="./carrinho">
+                <a routerLink="carrinho">
                     Carrinho <i class="fa-solid fa-cart-shopping" style="color: #8e7dbe;"></i>
                     
                     <span class="bagde-carrinho"> {{carrinhoService.obtemCarrinho().length}}</span>
