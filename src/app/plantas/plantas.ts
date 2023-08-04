@@ -15,7 +15,7 @@ export interface IPlantaCarrinho extends IPlanta {
 
 export const plantas: IPlanta[] = [
     { id: 1, descricao: "Alocacia", preco: 439.00, descricaoPreco: "À vista", imagem: "./assets/planta-1.jpg", quantidadeEstoque: 3},
-    { id: 2, descricao: "Espada-de-São-Jorge", preco: 1200.50, descricaoPreco: "À vista no PIX", quantidadeEstoque: 50, imagem: "/assets/espada-1.jpg" },
+    { id: 2, descricao: "Espada-de-São-Jorge", preco: 1200.50, descricaoPreco: "À vista no PIX", quantidadeEstoque: 50, imagem: "./assets/espada-1.jpg" },
     { id: 3, descricao: "Begônia", preco: 749.99, descricaoPreco: "À vista", imagem: "./assets/colorida-1.jpg", quantidadeEstoque: 10 },
     { id: 4, descricao: "Antúrio", preco: 599.99, descricaoPreco: "À vista", imagem: "./assets/folhas-largas-1.jpg", quantidadeEstoque: 10 },
     { id: 5, descricao: "Asplênio", preco: 299.99, descricaoPreco: "À vista", imagem: "./assets/folha-comprida-1.jpg", quantidadeEstoque: 4 },
