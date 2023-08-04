@@ -1,0 +1,35 @@
+.search-form{
+    height: 44px;
+    display: flex;
+    justify-content: end;
+}
+
+.search-form input{
+    box-sizing: border-box;
+    height: 40px;
+    padding: 20px;
+    /* flex:1; */
+    background-color: rgb(243, 243, 243);
+    color: #08605F;
+    border: none;
+    transition: all -3s ease-in-out;
+    font-size: 14px;
+    border-radius: 3px;
+    font-family: 'Kosugi Maru', sans-serif;
+    
+}
+
+.search-form button{
+    width: 40px;
+    height: 40px;
+    background-color: #90ffdc;
+    border:none;
+    color: #08605F;
+    font-size: 22px;
+    border-radius: 3px;
+}
+
+.search-form button:hover {
+    filter: brightness(1.1);
+    cursor: pointer;
+}
